@@ -1,0 +1,24 @@
+/* basic reseting  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .container{
+     width: 100%;
+     background-color: #ff0000;
+     display: inline-block;
+ }
+ .child{
+     display: inline-block;
+     width: 19%;
+     background-color: #FFFF00;
+     height: 200px;
+ }
+
+ /* media query fo0r mobile */
+ @media (max-width:420px){
+     .child{
+         width: 90%;
+     }
+ }
